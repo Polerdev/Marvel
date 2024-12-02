@@ -1,0 +1,16 @@
+img{
+  width: 25vw;
+  padding: 1rem;
+  transition-duration: 0.4s;
+}
+
+.height70{
+  height: 70vh;
+}
+
+img:hover{
+  cursor: pointer;
+  box-shadow: 2px 2px 4px #000;
+  transition-duration: 0.4s;
+  transform: scale(1.2);
+}

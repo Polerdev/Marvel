@@ -1,0 +1,14 @@
+@defer (when apiData){
+<div class="row mt-4">
+  @for (comic of apiData.data.results; track comic.id){
+  <div class="col-md-3 my-3">
+    {{comic.title}}
+
+  </div>
+
+  }
+</div>
+
+} @placeholder (){
+  <h2>Loading...</h2>
+}
